@@ -9,6 +9,7 @@ html {
 .page-container {
     display: flex;
     flex-direction: column;
+    _viewport-fit: 100%;
 }
 
 header img {
@@ -16,6 +17,7 @@ header img {
     height: 75px;
     background-color: #E5E7EB;
     margin-left: 20px;
+    border-radius: 7px;
 }
 
 header a {
@@ -69,6 +71,7 @@ ul {
 .awesome img {
     width: auto;
     height: 250px;
+    border-radius: 10px;
 }
 
 button {
@@ -113,5 +116,50 @@ h2 {
     align-items: center;
     gap: 5px;
     margin-bottom: 20px;
+    flex-basis: auto;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    max-width: 70%;
+    display: flex;    
+    flex-direction: column;
+    align-self: center;
+    padding: 150px 50px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    width: 70%;
+    justify-content: center;
+    align-self: center;
+    padding: 30px;
+    border-radius: 5px;
+    justify-content: space-around; 
+    margin-bottom: 75px;   
+}
+
+.action button {
+    border: 1px solid white;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+    border-top: 1px solid black;
+    width: 99%;
+}
